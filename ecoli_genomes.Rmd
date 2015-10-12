@@ -1,0 +1,15 @@
+---
+title: "E coli Genome Analysis"
+author: "kat"
+date: "October 12, 2015"
+output: html_document
+---
+Here I'm working with data from software carpentry: http://rpubs.com/marschmi/117051
+
+
+```{r set seed, echo=TRUE, eval=TRUE}
+set.seed(79211104)
+```
+
+
+
