@@ -11,5 +11,17 @@ Here I'm working with data from software carpentry: http://rpubs.com/marschmi/11
 set.seed(79211104)
 ```
 
+Below I am importing the **E coli data** from our data folder.
+
+```{r Import Data, echo=TRUE, eval=TRUE}
+metadata <- read.csv('data/Ecoli_metadata.csv') #load data from the data directory into an object named metadata
+View(metadata) #looking at table within R studio
+str(metadata) #shows the structure of an R object here, metadata
+?str #get help with str
+??str #all help pages with str in it
+mean(metadata$genome_size) #calculating the mean of the genome size
+```
+
+
 
 
